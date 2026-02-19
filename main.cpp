@@ -22,6 +22,9 @@ int main()
     }
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
+
+
+    std::cout << "Still has bugs though\n";
     delete[] b;       //free memory  
     return 0;
 }
